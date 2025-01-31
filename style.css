@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+}
+.nav_div li a{
+    text-decoration: none;
+    color: white;
+}
+.ri-menu-line{
+    position: absolute;
+    left: 1095px;
+    top: 32px;
+    color: #fff;
+}
+.nav_div ul{
+    display: flex;
+    list-style: none;
+    position: static;
+    justify-content: center;
+    gap: 3rem;
+    margin-left: 500px;
+}
+.nav_div ul li a{
+    position: relative;
+    top: -14px;
+}
+.logo{
+    position: relative;
+    top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #fff;
+}
+.logo span{
+    color: yellow;
+}
+body{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
